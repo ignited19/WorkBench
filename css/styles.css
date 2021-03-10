@@ -1,21 +1,45 @@
+/*Nav-bar*/
 
-body{
-    background-color: #222831;
-}
-hr{
-    width: 40%;
-    border-width: 5px;
-    border-style: none;
-    border-top-style: dotted;
-    border-color: gray;
-}
-h1{
-    color: #ffd369;
+
+/*MainPage*/
+#MainPage{
+    background-color: #c9d6df;
+    padding: 10%;
 }
 
-h3{
-    color: #ffd369;
+/*FightersLab*/
+#FightersLab{
+    background-color: #52616b;
+    padding: 10%;
 }
-p{
-    color: #eeeeee;
+.FL-Description{
+    font-family: 'Roboto', sans-serif;
 }
+
+.FL-Title{
+    font-family: 'Rock Salt', cursive;
+    text-decoration: underline;
+    font-weight: 100px;
+    font-size: 2.0rem;
+}
+.FL-TitleImage{
+    border: black;
+    border-style: inset;
+    width: 600px;
+}
+
+/*QuestLog*/
+#QuestLog{
+    background-color: #f0f5f9;
+    padding: 10%;
+}
+.QuestLog-Title{
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*Footer*/
+#footer{
+    text-align: center;
+}
+
+
